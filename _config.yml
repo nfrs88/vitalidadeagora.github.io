@@ -1,4 +1,7 @@
-title: Vitalidade Agora
-description: Artigos automáticos sobre saúde
-baseurl: ""
-url: "https://vitalidadeagora.github.io"
+title: VitalidadeAgora
+description: Dicas e informações de saúde, suplementos e bem-estar
+baseurl: ""  # se usar GitHub Pages no username.github.io, deixa vazio
+url: "https://vitalidadeagora.github.io" 
+theme: minima
+plugins:
+  - jekyll-feed
