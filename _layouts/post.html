@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description }}">
+  <meta name="keywords" content="{{ page.keywords }}">
   <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <h1>{{ page.title }}</h1>
-  {{ content }}
+  <header>
+    <h1><a href="{{ '/' | relative_url }}">VitalidadeAgora</a></h1>
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© {{ site.time | date: "%Y" }} VitalidadeAgora</p>
+  </footer>
 </body>
 </html>
