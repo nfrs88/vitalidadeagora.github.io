@@ -17,8 +17,4 @@ Principais benefícios:
 
 Saiba mais sobre vitamina C e suplementos relacionados em lojas online especializadas.
 
-### Posts relacionados
-- [Ômega 3](/omega-3.html)
-- [Magnésio](/magnesio.html)
-
 
