@@ -8,6 +8,12 @@ description: Informações e dicas de saúde e bem-estar
 
 Aqui você encontra artigos sobre saúde, suplementos e hábitos de vida saudáveis.
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
+## Últimos Artigos
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>({{ post.date | date: "%d/%m/%Y" }})</small>
+    </li>
+  {% endfor %}
+</ul>
