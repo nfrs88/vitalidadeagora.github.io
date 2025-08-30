@@ -17,7 +17,3 @@ Principais benefícios:
 
 Saiba mais sobre Magnésio e suplementos relacionados em lojas online especializadas.
 
-### Posts relacionados
-- [vitamina C](/vitamina-c.html)
-- [Ômega 3](/omega-3.html)
-
