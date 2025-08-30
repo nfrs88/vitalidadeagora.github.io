@@ -1,7 +1,11 @@
 ---
-layout: page
-title: "Sobre"
+layout: default
+title: Sobre
 permalink: /sobre/
 ---
 
-O **VitalidadeAgora** é um projeto dedicado a partilhar dicas práticas de saúde, alimentação e bem-estar.
+# Sobre o VitalidadeAgora
+
+O **VitalidadeAgora** é um espaço dedicado a compartilhar dicas, informações e artigos sobre saúde, bem-estar, nutrição e qualidade de vida.  
+
+Aqui você encontra conteúdos práticos para viver com mais energia, equilíbrio e vitalidade.
