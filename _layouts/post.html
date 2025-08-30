@@ -1,24 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ page.description }}">
-  <meta name="keywords" content="{{ page.keywords }}">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <header>
-    <h1><a href="{{ '/' | relative_url }}">VitalidadeAgora</a></h1>
-  </header>
-  
-  <main>
-    {{ content }}
-  </main>
+<main>
+  {{ content }}
 
-  <footer>
-    <p>© {{ site.time | date: "%Y" }} VitalidadeAgora</p>
-  </footer>
-</body>
-</html>
+  {% assign related_posts = site.posts | where_exp:"post", "post.tags & page.tags" | where_exp:"post", "post.url != page.url" | limit:5 %}
+
+  {% if related_posts.size > 0 %}
+  <section class="related-posts">
+    <h3>Posts relacionados</h3>
+    <ul>
+      {% for post in related_posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+</main>
