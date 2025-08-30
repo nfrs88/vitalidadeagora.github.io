@@ -17,8 +17,5 @@ Principais benefícios:
 
 Saiba mais sobre Ômega 3 e suplementos relacionados em lojas online especializadas.
 
-### Posts relacionados
-- [vitamina C](/vitamina-c.html)
-- [Magnésio](/magnesio.html)
 
 
