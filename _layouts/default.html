@@ -1,9 +1,6 @@
-<header>
-  <h1>{{ site.title }}</h1>
-  <nav>
-    <a href="/">Início</a>
-    <a href="/artigos/">Artigos</a>
-    <a href="/sobre/">Sobre</a>
-    <a href="/contato/">Contato</a>
-  </nav>
-</header>
+<nav>
+  <a href="{{ '/' | relative_url }}">Início</a>
+  <a href="{{ '/artigos' | relative_url }}">Artigos</a>
+  <a href="{{ '/sobre' | relative_url }}">Sobre</a>
+  <a href="{{ '/contato' | relative_url }}">Contato</a>
+</nav>
