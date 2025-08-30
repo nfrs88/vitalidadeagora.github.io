@@ -1,6 +1,90 @@
-<nav>
-  <a href="{{ '/' | relative_url }}">Início</a>
-  <a href="{{ '/artigos' | relative_url }}">Artigos</a>
-  <a href="{{ '/sobre' | relative_url }}">Sobre</a>
-  <a href="{{ '/contato' | relative_url }}">Contato</a>
-</nav>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f9f9;
+      color: #333;
+    }
+    header {
+      background: #2a9d8f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: #e9f5f2;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      color: #264653;
+    }
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #2a9d8f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #264653;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Início</a>
+      <a href="{{ '/artigos' | relative_url }}">Artigos</a>
+      <a href="{{ '/sobre' | relative_url }}">Sobre</a>
+      <a href="{{ '/contato' | relative_url }}">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© {{ 'now' | date: "%Y" }} {{ site.title }} - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
