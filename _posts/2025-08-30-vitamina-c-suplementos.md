@@ -1,0 +1,23 @@
+---
+layout: post
+title: "vitamina C – suplementos"
+description: "Descubra os principais suplementos do vitamina C para a saúde."
+keywords: "vitamina C, suplementos, saúde, suplementos"
+date: 2025-08-30
+categories: suplementos
+---
+
+O vitamina C é bastante estudado e apresenta diversos suplementos importantes para o corpo.
+
+Principais benefícios:
+- Melhora a saúde geral
+- Contribui para mais energia no dia a dia
+- Ajuda na prevenção de doenças
+- É utilizado em dietas saudáveis
+
+Saiba mais sobre vitamina C e suplementos relacionados em lojas online especializadas.
+
+### Posts relacionados
+- [Ômega 3](/omega-3.html)
+- [Magnésio](/magnesio.html)
+
