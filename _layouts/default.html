@@ -68,26 +68,17 @@
       color: white;
       margin-top: 30px;
     }
-    footer nav a {
-      color: #fff;
-      margin: 0 10px;
-      font-weight: normal;
-      font-size: 0.9rem;
-    }
-    footer nav a:hover {
-      text-decoration: underline;
-    }
   </style>
 </head>
 <body>
   <header>
     <h1>{{ site.title }}</h1>
     <nav>
-      <a href="{{ '/' | relative_url }}">Início</a>
-      <a href="{{ '/artigos/' | relative_url }}">Artigos</a>
-      <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
-      <a href="{{ '/contato/' | relative_url }}">Contato</a>
-      <a href="{{ '/politica-privacidade/' | relative_url }}">Política de Privacidade</a>
+      <a href="{{ site.baseurl }}/">Início</a>
+      <a href="{{ site.baseurl }}/artigos/">Artigos</a>
+      <a href="{{ site.baseurl }}/sobre/">Sobre</a>
+      <a href="{{ site.baseurl }}/contato/">Contato</a>
+      <a href="{{ site.baseurl }}/politica-privacidade/">Política de Privacidade</a>
     </nav>
   </header>
 
@@ -97,9 +88,6 @@
 
   <footer>
     <p>© {{ site.time | date: "%Y" }} {{ site.title }} - Todos os direitos reservados.</p>
-    <nav>
-      <a href="{{ '/politica-privacidade/' | relative_url }}">Política de Privacidade</a>
-    </nav>
   </footer>
 </body>
 </html>
