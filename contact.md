@@ -5,4 +5,4 @@ permalink: /contato/
 ---
 
 Se quiseres entrar em contacto, envia um email para:  
-**contato@vitalidadeagora.com**
+**prevarea0@gmail.com**
