@@ -1,8 +1,10 @@
 ---
-layout: default
-title: Sobre
+layout: page
+title: "Sobre"
+permalink: /contato/
 ---
 
 # Sobre o VitalidadeAgora
 
-Aqui você encontra informações sobre nós, missão e valores.
+O VitalidadeAgora tem um simples objetivo,
+deixar qualquer um, informado de forma simples e rápida.
