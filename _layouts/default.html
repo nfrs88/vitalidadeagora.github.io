@@ -68,6 +68,15 @@
       color: white;
       margin-top: 30px;
     }
+    footer nav a {
+      color: #fff;
+      margin: 0 10px;
+      font-weight: normal;
+      font-size: 0.9rem;
+    }
+    footer nav a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -88,6 +97,9 @@
 
   <footer>
     <p>© {{ site.time | date: "%Y" }} {{ site.title }} - Todos os direitos reservados.</p>
+    <nav>
+      <a href="{{ '/politica-privacidade/' | relative_url }}">Política de Privacidade</a>
+    </nav>
   </footer>
 </body>
 </html>
