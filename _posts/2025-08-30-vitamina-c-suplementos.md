@@ -1,11 +1,17 @@
 ---
 layout: post
-title: "vitamina C – suplementos"
-description: "Descubra os principais suplementos do vitamina C para a saúde."
-keywords: "vitamina C, suplementos, saúde, suplementos"
+title: "Vitamina C – suplementos"
+description: "Descubra os principais suplementos da Vitamina C para a saúde."
+keywords:
+  - Vitamina C
+  - suplementos
+  - saúde
 date: 2025-08-30
-tags: [vitamina, suplemento]
+tags:
+  - vitamina
+  - suplemento
 ---
+
 
 O vitamina C é bastante estudado e apresenta diversos suplementos importantes para o corpo.
 
@@ -16,4 +22,5 @@ Principais benefícios:
 - É utilizado em dietas saudáveis
 
 Saiba mais sobre vitamina C e suplementos relacionados em lojas online especializadas.
+
 
