@@ -2,7 +2,7 @@
 layout: post
 title: "Sono reparador: como dormir melhor naturalmente"
 date: 2023-01-02
-description: Um guia prático sobre sono reparador: como dormir melhor naturalmente, com dicas acessíveis para o dia a dia.
+description: "Um guia prático sobre sono reparador: como dormir melhor naturalmente, com dicas acessíveis para o dia a dia."
 categories: ['suplementos']
 ---
 
