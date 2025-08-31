@@ -1,17 +1,15 @@
 ---
 layout: post
-title: "Ômega 3 – suplementos"
+title: "Ômega 3 - suplementos"
 description: "Descubra os principais suplementos do Ômega 3 para a saúde."
 keywords:
-  - Ômega 3
-  - suplementos
-  - saúde
+  - "Ômega 3"
+  - "suplementos"
+  - "saúde"
 date: 2025-08-30
-tags:
-  - omega
-  - suplemento
+categories:
+  - suplementos
 ---
-
 
 O Ômega 3 é bastante estudado e apresenta diversos suplementos importantes para o corpo.
 
@@ -22,5 +20,3 @@ Principais benefícios:
 - É utilizado em dietas saudáveis
 
 Saiba mais sobre Ômega 3 e suplementos relacionados em lojas online especializadas.
-
-
