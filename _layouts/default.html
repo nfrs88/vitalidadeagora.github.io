@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
   <style>
     body {
       margin: 0;
@@ -73,9 +75,9 @@
     <h1>{{ site.title }}</h1>
     <nav>
       <a href="{{ '/' | relative_url }}">Início</a>
-      <a href="{{ '/artigos' | relative_url }}">Artigos</a>
-      <a href="{{ '/sobre' | relative_url }}">Sobre</a>
-      <a href="{{ '/contato' | relative_url }}">Contato</a>
+      <a href="{{ '/artigos/' | relative_url }}">Artigos</a>
+      <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
+      <a href="{{ '/contato/' | relative_url }}">Contato</a>
     </nav>
   </header>
 
@@ -84,7 +86,7 @@
   </main>
 
   <footer>
-    <p>© {{ 'now' | date: "%Y" }} {{ site.title }} - Todos os direitos reservados.</p>
+    <p>© {{ site.time | date: "%Y" }} {{ site.title }} - Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
