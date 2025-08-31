@@ -2,7 +2,7 @@
 layout: post
 title: "Ervas medicinais: o que a ciência diz"
 date: 2023-01-16
-description: Um guia prático sobre ervas medicinais: o que a ciência diz, com dicas acessíveis para o dia a dia.
+description: "Um guia prático sobre ervas medicinais: o que a ciência diz, com dicas acessíveis para o dia a dia."
 categories: ['saúde']
 ---
 
