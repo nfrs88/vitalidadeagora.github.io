@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ page.description }}">
-  <meta name="keywords" content="{{ page.keywords }}">
+  <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
@@ -25,17 +25,25 @@
       {{ content }}
     </article>
 
-    {% assign related_posts = site.posts | where_exp: "post", "post.tags | intersect: page.tags | size > 0" | where_exp: "post", "post.url != page.url" %}
-    {% if related_posts.size > 0 %}
+    {% comment %}
+    ---- POSTS RELACIONADOS ----
+    Compatível com GitHub Pages (sem erro no build).
+    Verifica posts que compartilham pelo menos uma tag.
+    {% endcomment %}
+
     <section class="related-posts">
       <h2>Posts relacionados</h2>
       <ul>
-        {% for post in related_posts %}
-          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {% for post in site.posts %}
+          {% if post.url != page.url and post.tags and page.tags %}
+            {% assign common_tags = post.tags | intersect: page.tags %}
+            {% if common_tags.size > 0 %}
+              <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endif %}
+          {% endif %}
         {% endfor %}
       </ul>
     </section>
-    {% endif %}
   </main>
 
   <footer>
