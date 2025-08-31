@@ -2,7 +2,7 @@
 layout: post
 title: "Mindfulness no dia a dia: um guia prático"
 date: 2023-01-08
-description: Um guia prático sobre mindfulness no dia a dia: um guia prático, com dicas acessíveis para o dia a dia.
+description: "Um guia prático sobre mindfulness no dia a dia: um guia prático, com dicas acessíveis para o dia a dia."
 categories: ['nutrição']
 ---
 
