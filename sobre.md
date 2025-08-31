@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Sobre"
-permalink: /contato/
+permalink: /sobre/
 ---
 
 # Sobre o VitalidadeAgora
